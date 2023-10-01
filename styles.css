@@ -1,3 +1,16 @@
+/* Reset some default styles for consistency */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Apply a box-sizing border-box for consistent sizing */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* Common styles for all screen sizes */
 body {
     font-family: 'Work Sans', sans-serif;
     background-image: url('background.jpg'); /* Replace 'background.jpg' with the path to your image */
@@ -8,9 +21,10 @@ body {
     background-attachment: fixed;
     margin: 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     color: #fff;
 }
 
@@ -20,6 +34,9 @@ body {
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 90%;
+    margin: 10px auto 20px auto;
 }
 
 .header {
@@ -28,7 +45,7 @@ body {
 }
 
 img {
-    max-width: 200px;
+    max-width: 100%; /* Ensure images are responsive */
     height: auto;
 }
 
@@ -92,4 +109,31 @@ p {
 .contact-item p {
     font-size: 18px;
     color: #ccc;
+}
+
+/* Responsive Design for Small Screens */
+@media screen and (max-width: 768px) {
+    .logo {
+        font-size: 36px; /* Slightly reduce logo size on small screens */
+    }
+
+    h2 {
+        font-size: 28px; /* Slightly reduce heading size on small screens */
+    }
+
+    p {
+        font-size: 16px; /* Slightly reduce paragraph text size on small screens */
+    }
+
+    .countdown span {
+        font-size: 20px;
+    }
+
+    .contact-item h3 {
+        font-size: 20px; /* Slightly reduce contact item heading size on small screens */
+    }
+
+    .contact-item p {
+        font-size: 16px;
+    }
 }
