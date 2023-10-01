@@ -1,16 +1,13 @@
-# HTML 5 Responsive Coming Soon Under Construction Template
+# Animated Under Construction Template
 
-![mockup](https://github.com/nipanimaju/coming-soon/blob/master/mockup.jpg?raw=true "mockup")
+View the demo [here.](https://tmkamal.github.io/under-construction-template/)
+``` 
+Feel free to use this template for your upcoming projects.
+```
+This template has been built using SVG animation with CSS3.
 
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg?logo=paypal)](https://www.paypal.com/paypalme/nipanimaju)
+## Preview
 
-* Licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
-* Edit the HTML and JS to fit your needs.
-* The JS file contains the target date, in first line (format "yyyy-mm-dd").
-* The HTML file contains all texts and social media account links.
-* You can add more icons at the ending of the page. For getting the icon codes, you may go [here](https://fontawesome.com/v5.15/icons?d=gallery&p=2). 
-* Plenty of comments included. ;)
+> Actual template is a lot smoother than this.  
 
-
-Buy me a coffee: [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg?logo=paypal)](https://www.paypal.com/paypalme/nipanimaju)
+![Preview](https://github.com/tmKamal/hosted-images/blob/master/under-construction/Document.gif?raw=true)<br/>  
